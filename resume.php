@@ -2,19 +2,19 @@
 <html>
 	<head>
 		<title>Resume For Coppy Bredenkamp</title>
+		<link rel="stylesheet" href="style.css"> 
 	</head>
 	<body>
 		<?php 
 		
 		  $personalinfo="
-            <div>
-                <h1>%NAME%</h1>
+            <h1>%NAME%</h1>
                 <p>%ADDRESS% | %PHONE% | %EMAIL%</p>
-            </div>";
+            ";
 		  $objective="
             <div>
                 <h2>Objective</h2>
-                <p>%BODY%</p>
+                <div>%BODY%</div>
             </div>
             ";
           
