@@ -10,7 +10,7 @@
             <div>
                 <h1>%NAME%</h1>
                 <p>%ADDRESS% | %PHONE% | %EMAIL%</p>
-            </div";
+            </div>";
 		  $objective="
             <div>
                 <h2>Objective</h2>
