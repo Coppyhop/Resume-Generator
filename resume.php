@@ -8,20 +8,20 @@
 		<?php 
 		
           $personalinfo="
-            <div>
+            <div class=element>
             <h1>%NAME%</h1>
                 <p>%ADDRESS% | %PHONE% | %EMAIL%</p>
             </div>
             ";
 		  $objective="
-            <div>
+            <div class=element>
                 <h2>Objective</h2>
                 <div>%BODY%</div>
             </div>
             ";
           
 		  $education="
-            <div>
+            <div class=element>
                 <h2>Education</h2>
                 <div>
                 <h3>%TITLE1% | %DATE1%</h3>
@@ -35,7 +35,7 @@
             ";
 		  
 		  $experience = "
-            <div>
+            <div class=element>
                 <h2>Experience</h2>
                 <div>
                 <h3>%TITLE1% | %DATE1%</h3>
@@ -47,7 +47,7 @@
                 </div>
             </div>";
 		  $achievements = "
-                <div>
+                <div class=element>
                 <h2>Achievements/Misc</h2>
                 <div>
                 <h3>%TITLE1% | %DATE1%</h3>

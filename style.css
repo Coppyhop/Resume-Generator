@@ -13,9 +13,12 @@ body {
 	font-feature-settings: 'liga', 'clig', 'kern';
 }
 
+.element {
+    margin-right:3%;
+}
+
 div {
 	margin-left: 3%;
-
 }
 
 h1 {
