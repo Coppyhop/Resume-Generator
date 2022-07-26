@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	background: #ffffff;
+	background: #FFEECF;
 }
 
 /* Use OS default fonts */
@@ -12,7 +12,6 @@ body {
 	text-rendering: optimizeLegibility;
 	font-feature-settings: 'liga', 'clig', 'kern';
     margin-right:3%;
-    background: #C9A690;
 }
 
 .element {
