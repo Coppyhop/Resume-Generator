@@ -86,7 +86,7 @@
 		      $stmt = $conn->prepare("SELECT * FROM education ORDER BY date DESC LIMIT 2");
 		      $stmt->execute();
 		      $arr = $stmt->fetchAll();
-		      $ed = str_replace("%TITLE1%", $arr[0]["title"], $education);
+		      $ed = str_replace("%TITLE1%", $arr[0]["title"] + " | ", $education);
 		      $ed = str_replace("%DATE1%", $arr[0]["date"], $ed);
 		      $ed = str_replace("%BODY1%", $arr[0]["body"], $ed);
 		      $ed = str_replace("%TITLE2%", $arr[1]["title"], $ed);
