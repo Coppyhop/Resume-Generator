@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<?php 
-	      $bulletpoint="<br>‣ ";	
+	      $bulletpoint="‣ ";	
           $personalinfo="
             <div class=element>
             <h1>%NAME%</h1>
