@@ -12,6 +12,7 @@ body {
 	text-rendering: optimizeLegibility;
 	font-feature-settings: 'liga', 'clig', 'kern';
     margin-right:3%;
+    background: #C9A690;
 }
 
 .element {
