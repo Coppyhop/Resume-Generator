@@ -25,11 +25,11 @@
                 <h2>Education</h2>
                 <div>
                 <h3>%TITLE1% | %DATE1%</h3>
-                <div><p>%BODY1%</p></div>
+                <div>%BODY1%</div>
                 </div>
                 <div>
                 <h3>%TITLE2% | %DATE2%</h3>
-                <div><p>%BODY2%</p></div>
+                <div>%BODY2%</div>
                 </div>
             </div>
             ";
@@ -39,11 +39,11 @@
                 <h2>Experience</h2>
                 <div>
                 <h3>%TITLE1% | %DATE1%</h3>
-                <div><p>%BODY1%</p></div>
+                <div>%BODY1%</div>
                 </div>
                 <div>
                 <h3>%TITLE2% | %DATE2%</h3>
-                <div><p>%BODY2%</p></div>
+                <div>%BODY2%</div>
                 </div>
             </div>";
 		  $achievements = "
@@ -51,11 +51,11 @@
                 <h2>Achievements/Misc</h2>
                 <div>
                 <h3>%TITLE1% | %DATE1%</h3>
-                <div><p>%BODY1%</p></div>
+                <div>%BODY1%</div>
                 </div>
                 <div>
                 <h3>%TITLE2% | %DATE2%</h3>
-                <div><p>%BODY2%</p></div>
+                <div>%BODY2%</div>
                 </div>
             </div>";
 		  
