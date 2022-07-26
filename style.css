@@ -20,7 +20,8 @@ body {
 
 a {
     color: #D36582;
-    font-style: bold;
+    font-style: oblique;
+    font-weight: bold;
     text-decoration: none;
 }
 
