@@ -15,7 +15,11 @@ body {
 }
 
 .element {
-    margin-right:3%;
+
+}
+
+a {
+    color: #D36582;
 }
 
 div {
