@@ -10,7 +10,7 @@
           $personalinfo="
             <div class=element>
             <h1>%NAME%</h1>
-                <p>%ADDRESS% | %PHONE% | %EMAIL%</p>
+                <div><p>%ADDRESS% | %PHONE% | %EMAIL%</p></div>
             </div>
             ";
 		  $objective="
