@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<?php 
-		
+	      $bulletpoint="<br>‣ ";	
           $personalinfo="
             <div class=element>
             <h1>%NAME%</h1>
@@ -25,11 +25,11 @@
                 <h2>Education</h2>
                 <div>
                 <h3>%TITLE1% | %DATE1%</h3>
-                <div><p>‣ %BODY1%</p></div>
+                <div><p>%BODY1%</p></div>
                 </div>
                 <div>
                 <h3>%TITLE2% | %DATE2%</h3>
-                <div><p>‣ %BODY2%</p></div>
+                <div><p>%BODY2%</p></div>
                 </div>
             </div>
             ";
@@ -39,11 +39,11 @@
                 <h2>Experience</h2>
                 <div>
                 <h3>%TITLE1% | %DATE1%</h3>
-                <div><p>‣ %BODY1%</p></div>
+                <div><p>%BODY1%</p></div>
                 </div>
                 <div>
                 <h3>%TITLE2% | %DATE2%</h3>
-                <div><p>‣ %BODY2%</p></div>
+                <div><p>%BODY2%</p></div>
                 </div>
             </div>";
 		  $achievements = "
@@ -51,11 +51,11 @@
                 <h2>Achievements/Misc</h2>
                 <div>
                 <h3>%TITLE1% | %DATE1%</h3>
-                <div><p>‣ %BODY1%</p></div>
+                <div><p>%BODY1%</p></div>
                 </div>
                 <div>
                 <h3>%TITLE2% | %DATE2%</h3>
-                <div><p>‣ %BODY2%</p></div>
+                <div><p>%BODY2%</p></div>
                 </div>
             </div>";
 		  
@@ -112,11 +112,18 @@
 		      $ad = str_replace("%TITLE2%", $arr[1]["title"], $ad);
 		      $ad = str_replace("%DATE2%", $arr[1]["date"], $ad);
 		      $ad = str_replace("%BODY2%", $arr[1]["body"], $ad);
-		      echo($pid);
-		      echo($od);
-		      echo($ed);
-		      echo($exd);
-		      echo($ad);
+              
+              $pid = str_replace("%BP%", $bulletpoint, $pid); 
+              echo($pid);
+              $od = str_replace("%BP%", $bulletpoint, $od);
+              echo($od);
+              $ed = str_replace("%BP%", $bulletpoint, $ed);
+              echo($ed);
+              $exd = str_replace("%BP%", $bulletpoint, $exd);
+              echo($exd);
+              $ad = str_replace("%BP%", $bulletpoint, $ad);
+              echo($ad);
+              $fd = str_replace("%BP%", $bulletpoint, $fd);
 		      echo($fd);
 		      
 		      $conn=null;
