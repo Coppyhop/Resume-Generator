@@ -59,7 +59,7 @@
                 </div>
             </div>";
 		  
-		  $footer = "<p>References available upon request. Contact is freely available at %EMAIL%. Phone calls are discouraged for first contact.";
+		  $footer = "<div><p>References available upon request. Contact is freely available at %EMAIL%. Phone calls are discouraged for first contact.</p></div>";
 		  $servername = "localhost";
 		  $username = "anon";
 		  $password = "anonymous";
