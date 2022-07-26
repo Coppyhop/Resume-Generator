@@ -30,9 +30,11 @@ div {
 }
 
 h1 {
+    font-weight: bold;
     color: #2B59C3;
 }
 
 h2 {
+    font-style: oblique;
     color: #253C78;
 }
