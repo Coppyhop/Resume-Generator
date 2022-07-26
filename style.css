@@ -11,11 +11,10 @@ body {
 	font-family:Arial, Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
 	font-feature-settings: 'liga', 'clig', 'kern';
-    margin-right:3%;
 }
 
 .element {
-
+    margin-right:3%;
 }
 
 a {
