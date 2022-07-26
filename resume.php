@@ -7,9 +7,11 @@
 	<body>
 		<?php 
 		
-		  $personalinfo="
+          $personalinfo="
+            <div>
             <h1>%NAME%</h1>
                 <p>%ADDRESS% | %PHONE% | %EMAIL%</p>
+            </div>
             ";
 		  $objective="
             <div>
